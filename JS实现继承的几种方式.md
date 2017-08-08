@@ -16,7 +16,7 @@ Animal.prototype.eat = function(food) {
   console.log(this.name + '正在吃：' + food);
 };
 ```
-
+    
 **1、原型链继承**
 核心： 将父类的实例作为子类的原型
 
