@@ -64,7 +64,7 @@ console.log(cat.sleep());
 console.log(cat instanceof Animal); // false
 console.log(cat instanceof Cat); // true
 ```
-    特点:
+特点:
 1.解决了1中，子类实例共享父类引用属性的问题
 2.创建子类实例时，可以向父类传递参数
 3.可以实现多继承（call多个父类对象）
@@ -162,3 +162,33 @@ console.log(cat instanceof Cat); //true
 
 缺点：
 1.实现较为复杂
+
+示例：
+
+请用js实现一个类P，包含成员变量a，成员变量b，成员函数sum，sum输出a与b的和，a，b默认值都为0。实现一个类M，M继承自P，在P的基础上增加成员变量c，成员函数sum变成输出a,b,c的和。
+
+```js
+function P(a,b){
+  this.a=a||0;
+  this.b=b||0;
+}
+
+P.prototype.sum = function(){
+  return this.a+this.b;
+}
+
+function M(a,b,c){
+  P.call(this,a,b);
+  this.c =c||0;
+}
+
+M.prototype =new P();
+M.prototype.constructor = M;
+M.prototype.sum = function(){
+  return this.a+this.b+this.c;
+}
+
+p = new P(1,2);
+m = new M(1,2,3);
+p.sum();//3
+m.sum();//6
