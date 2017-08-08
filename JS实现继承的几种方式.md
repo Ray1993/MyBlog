@@ -17,8 +17,8 @@ Animal.prototype.eat = function(food) {
 };
 ```
     
-**1、原型链继承**
-核心： 将父类的实例作为子类的原型
+    **1、原型链继承**
+    核心： 将父类的实例作为子类的原型
 
 ```js
 function Cat(){ 
