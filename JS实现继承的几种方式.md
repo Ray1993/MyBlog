@@ -17,8 +17,8 @@ Animal.prototype.eat = function(food) {
 };
 ```
     
-    **1、原型链继承**
-    核心： 将父类的实例作为子类的原型
+**1、原型链继承**
+核心： 将父类的实例作为子类的原型
 
 ```js
 function Cat(){ 
@@ -64,7 +64,7 @@ console.log(cat.sleep());
 console.log(cat instanceof Animal); // false
 console.log(cat instanceof Cat); // true
 ```
-特点：
+    特点:
 1.解决了1中，子类实例共享父类引用属性的问题
 2.创建子类实例时，可以向父类传递参数
 3.可以实现多继承（call多个父类对象）
