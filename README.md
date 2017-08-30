@@ -6,4 +6,4 @@
 
 -[HTTP状态码301和302重定向理解总结](https://github.com/Ray1993/notes/issues/3)
 
--[【重要】对闭包 作用域链 垃圾回收机制以及内存泄露的理解](https://github.com/Ray1993/notes/issues/4)
+-[【重要】对闭包 作用域链 垃圾回收机制以及内存泄露的理解](https://github.com/Ray1993/notes/issues/5)
