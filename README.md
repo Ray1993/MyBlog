@@ -1,4 +1,4 @@
-前端blog
+_前端blog_
 
 - [JS继承实现的几种方式](https://github.com/Ray1993/notes/issues/1)
 
