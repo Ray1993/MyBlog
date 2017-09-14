@@ -8,6 +8,7 @@
 
 - [【重要】对闭包 作用域链 垃圾回收机制以及内存泄露的理解](https://github.com/Ray1993/notes/issues/5)
 
+- [ES6 - 对Promise对象的学习理解](https://github.com/Ray1993/notes/issues/6)
 
 ## 勘误及提问
 
