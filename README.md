@@ -1,5 +1,7 @@
 # _前端 blog_
 
+> JavaScript
+
 - [JS继承实现的几种方式](https://github.com/Ray1993/notes/issues/1)
 
 - [浏览器缓存机制小结](https://github.com/Ray1993/notes/issues/2)
@@ -9,6 +11,9 @@
 - [【重要】对闭包 作用域链 垃圾回收机制以及内存泄露的理解](https://github.com/Ray1993/notes/issues/5)
 
 - [ES6 - 对Promise对象的学习理解](https://github.com/Ray1993/notes/issues/6)
+
+> VUE学习
+
 
 ## 勘误及提问
 
