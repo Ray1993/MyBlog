@@ -14,6 +14,7 @@
 
 > VUE学习
 
+- [Vue双向绑定的实现原理](https://github.com/Ray1993/notes/issues/6)
 
 ## 勘误及提问
 
