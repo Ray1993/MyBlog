@@ -12,6 +12,8 @@
 
 - [ES6 - 对Promise对象的学习理解](https://github.com/Ray1993/notes/issues/6)
 
+- [订阅发布者模式的实现](https://github.com/Ray1993/notes/issues/10)
+
 > VUE学习
 
 - [Vue双向绑定的实现原理](https://github.com/Ray1993/notes/issues/9)
